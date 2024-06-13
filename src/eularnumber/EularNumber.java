@@ -13,6 +13,14 @@ public class EularNumber {
         return fact;
     }
 
+    public static double findEulerNumber(double sayi) {
+        double e = 0;
+        for (int i = 0; i < sayi; i++) {
+            e += 1 / factorial(i);
+        }
+        return e;
+    }
+
     public static void main(String[] args) {
 
     }
