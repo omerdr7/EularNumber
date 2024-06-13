@@ -22,6 +22,7 @@ public class EularNumber {
     }
 
     public static void main(String[] args) {
+        System.out.println(findEulerNumber(4));
 
     }
 
